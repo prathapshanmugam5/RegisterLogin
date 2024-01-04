@@ -1,0 +1,12 @@
+/* Add this to src/app/navbar/navbar.component.css */
+.navbar {
+    box-shadow: 0 2px 4px rgba(135, 125, 125, 0.1);
+}
+
+nav .nav-link {
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav .nav-link:hover {
+    background-color: #d51a1a; /* Change this to your desired hover color */
+}
